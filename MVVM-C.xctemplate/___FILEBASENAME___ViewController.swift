@@ -24,6 +24,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     func config() {
         configViewModelInput()
         configViewModelOutput()
+        configRoutingOutput()
     }
 
     func configViewModelInput() {
@@ -32,5 +33,9 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
 
     func configViewModelOutput() {
         
+    }
+
+    func configRoutingOutput() {
+
     }
 }

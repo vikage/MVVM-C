@@ -10,6 +10,10 @@ struct ___VARIABLE_sceneName___ViewModelOutput: InputOutputViewModel {
 
 }
 
-final class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_sceneName___ViewModelInput, ___VARIABLE_sceneName___ViewModelOutput> {
+struct ___VARIABLE_sceneName___ViewModelRouting: RoutingOutput {
+
+}
+
+final class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_sceneName___ViewModelInput, ___VARIABLE_sceneName___ViewModelOutput, ___VARIABLE_sceneName___ViewModelRouting> {
 
 }
